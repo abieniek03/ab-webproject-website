@@ -4,8 +4,6 @@ import Layout from '@/components/Layout';
 import ProjectItem from '@/components/ProjectItem';
 
 const Projects: FC = () => {
-	document.title = 'AB Web Project | About';
-
 	const projects = [
 		{
 			id: 0,
@@ -25,7 +23,7 @@ const Projects: FC = () => {
 		},
 	];
 	return (
-		<Layout>
+		<Layout subtitle='Projects'>
 			<div className='p-12 min-h-screen flex justify-center items-center m-auto max-w-screen-xl lg:flex-row'>
 				<div className='z-10 flex flex-col lg:flex-row'>
 					{projects.map((project) => (

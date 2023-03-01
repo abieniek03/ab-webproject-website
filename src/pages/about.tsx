@@ -10,15 +10,13 @@ interface IAbout {
 }
 
 const About: FC<IAbout> = () => {
-	document.title = 'AB Web Project | About';
-
 	const paragraphs = [
 		'Chodzę do czwartej klasy technikum informatycznego. Odkąd pamiętam zawsze interesowałem się komputerami. Przez długi czas byłem związany z grafiką komputerową. W sierpniu 2018 roku zaznajomiłem się z tworzeniem stron internetowych. Bardzo mi się to spodobało. Od czasu do czasu zacząłem projektować strony intenetowe, które tworzyłem później w HTML i CSS.',
 		'W drugiej połowie 2021 roku zacząłem skupiać się na programowaniu. Tworzę strony i aplikacje internetowe. Zdarza mi się też pracować w zespole, co bardzo lubię i cenię. Praca przy większych projektach z innymi programistami to bardzo cenne doświadczenie. Czasami wracam do grafiki, zajmuję się projektowaniem stron internetowych i interfejsów aplikacji.',
 	];
 
 	return (
-		<Layout>
+		<Layout subtitle='About'>
 			<div className='px-12 py-24 min-h-screen flex flex-col justify-center mx-auto max-w-screen-lg lg:text-lg relative before:fixed before:bg-[#44fa6b] before:h-[200px] before:w-[250px] before:top-[-50px] before:left-[-75px] before:rounded-full before:blur-2xl after:fixed after:bg-[#00a8ff] after:h-[200px] after:w-[250px] after:right-[-50px] after:bottom-[-50px] after:rounded-full after:blur-2xl before:opacity-10 after:opacity-10 lg:before:h-[600px] lg:before:w-[650px] lg:before:top-[-100px] lg:before:left-[-150px] lg:before:blur-[75px] lg:after:h-[600px] lg:after:w-[650px] lg:after:bottom-[-100px] lg:after:right-[-150px] lg:after:blur-[75px]'>
 				<div className='z-10'>
 					<div className='flex items-center'>
