@@ -33,7 +33,7 @@ const Layout: FC<ILayout> = (props) => {
 				/>
 				<title>AB Web Project{props.subtitle ? ` | ${props.subtitle}` : null}</title>
 			</Head>
-			<div className='bg-slate-100 dark:bg-[#000a0f] text-[#000a0f] dark:text-slate-100 h-screen flex flex-col justify-center items-center overflow-hidden'>
+			<div className='bg-[#000a0f] text-slate-100 h-screen flex flex-col justify-center items-center overflow-hidden'>
 				{cookieVisible && <CookieAlert accept={accept} />}
 				{props.children}
 			</div>
