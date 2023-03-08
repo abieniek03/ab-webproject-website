@@ -18,9 +18,9 @@ const Menu: FC = () => {
 		},
 		{
 			id: 2,
-			title: 'Instagram',
-			description: 'Follow me and watch my job. Find out more of my projects.',
-			href: 'https://www.instagram.com/abwebproject/',
+			title: 'Github',
+			description: 'See code of my projects.',
+			href: 'https://github.com/abieniek03',
 		},
 	];
 
