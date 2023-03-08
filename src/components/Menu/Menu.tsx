@@ -6,21 +6,21 @@ const Menu: FC = () => {
 	const menuItems = [
 		{
 			id: 0,
-			title: 'O mnie',
-			description: 'Dowiedz się, jak zainteresowałem się programowaniem i czym dokładnie się zajmuję.',
+			title: 'About me',
+			description: 'Find out how I interested programming and when I started my programming journey.',
 			path: '/about',
 		},
 		{
 			id: 1,
-			title: 'Projekty',
-			description: 'Zobacz moje projekty. Znajdziesz tu tylko projekty indywidualne.',
+			title: 'Projects',
+			description: 'See my projects. All of them are my individual projects.',
 			path: '/projects',
 		},
 		{
 			id: 2,
-			title: 'GitHub',
-			description: 'Dowiedz się więcej na temat technolgoii, które wykorozystuje. Zobacz moje projekty od strony kodu.',
-			href: 'https://github.com/abieniek03',
+			title: 'Instagram',
+			description: 'Follow me and watch my job. Find out more of my projects.',
+			href: 'https://www.instagram.com/abwebproject/',
 		},
 	];
 

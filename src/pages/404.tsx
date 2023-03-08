@@ -23,9 +23,9 @@ const NotFound = () => {
 		<Layout>
 			<Header />
 			<div className='text-center'>
-				<h1 className='text-2xl font-bold mb-2'>Nie znaleziono takiej strony</h1>
+				<h1 className='text-2xl font-bold mb-2'>404. Not Found</h1>
 				<p>
-					Przekierowanie na stronę główną nastąpi za <span className='font-bold'>{time} sekund.</span>
+					Navigate to homepage will happen in <span className='font-bold'>{time} s.</span>
 				</p>
 			</div>
 		</Layout>
