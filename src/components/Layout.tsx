@@ -29,7 +29,7 @@ const Layout: FC<ILayout> = (props) => {
 				/>
 				<meta
 					name='description'
-					content='Chodzę do czwartej klasy technikum informatycznego. Interesuję się programowaniem. Tworzę strony i aplikacje internetowe wykorzystując technologie frontendowe i backendowe. Zdarza mi się też pracować w zespole, co bardzo lubię i cenię. Praca przy większych projektach z innymi programistami to bardzo cenne doświadczenie.'
+					content="My name is Adrian. I'm from Poland and 19 years old. I'm interesting IT since the youngers age. At the age of 12 I started make graphic design. In summer 2018 Istarted interesting web development and create my first static website using HTML and CSS. I createed also UI/UX projects in the meantime. At the end of 2021 I stopped make graphics and focused for web programming. I know frontend and backend technologies, and create websites and web application. I'm constantly learning new things and developing myself."
 				/>
 				<title>AB Web Project{props.subtitle ? ` | ${props.subtitle}` : null}</title>
 			</Head>
